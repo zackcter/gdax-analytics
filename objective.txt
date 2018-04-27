@@ -1,0 +1,18 @@
+Objective: poll 5 different bitcoin services for price information. try to avoid using a python script for this, as it makes things a bit too opaque.
+
+Bitcoin clients:
+Coinbase/GDAX
+bitstamp
+bitit
+Cex.io
+Coinmama
+
+Coinbase/GDAX API?: https://docs.gdax.com
+	They have a trading and a Feed api. We need feed
+	*move forward with Python, don't use the api library for now. stick to 
+	requests
+
+
+Bitstamp API: https://www.bitstamp.net/websocket/  https://www.bitstamp.net/api/  
+bitit API: cant find atm
+
